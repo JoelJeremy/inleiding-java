@@ -11,11 +11,10 @@ public class variabelenh5 extends Applet {
     int Height;
 
     public void init() {
-        Opvulkleur= Color.magenta;
+        Opvulkleur= Color.MAGENTA;
         Lijnkleur = Color.BLACK;
-        Width = 280;
+        Width = 180;
         Height = 100;
-
     }
     public void paint(Graphics g) {
         /*lijn*/
