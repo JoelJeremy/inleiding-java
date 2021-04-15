@@ -12,7 +12,6 @@ public class Variabelen52 extends Applet {
         Valerie = 100;
         Jeroen= 150;
         Hans = 200;
-
     }
     public void paint(Graphics g) {
         /*body*/
