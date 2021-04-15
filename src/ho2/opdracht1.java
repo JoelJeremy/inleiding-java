@@ -1,4 +1,5 @@
 package ho2;
+/*Joel Amah*/
  import java.awt.*;
 import java.applet.Applet;
 

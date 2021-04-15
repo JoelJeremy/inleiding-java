@@ -1,4 +1,5 @@
 package h01;
+/*Joel Amah*/
 import java.applet.Applet;
 import java.awt.*;
 

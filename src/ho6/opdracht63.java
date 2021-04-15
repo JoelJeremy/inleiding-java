@@ -1,5 +1,5 @@
 package ho6;
-
+/*Joel Amah*/
 import java.applet.Applet;
 import java.awt.*;
 

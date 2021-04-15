@@ -35,7 +35,7 @@ public class UltimateH4 extends Applet {
 
         /*Taartpunt met ovaal eromheen*/
         g.setColor(Color.magenta);
-        g.fillArc(450, 50,180,100,355,45);
+        g.fillArc(450, 50,180,100,360,45);
         g.setColor(Color.black);
         g.drawOval(450,50,180,100);
         g.drawString("Taartpunt met ovaal eromheen",460,170);
