@@ -8,6 +8,8 @@ public class huisje extends Applet {
 
     }
     public void paint(Graphics g) {
+        //Size
+        setSize(800,400);
         /*Roof*/
         g.drawLine(200,20, 75,100);
         g.drawLine(75,100,325, 100);

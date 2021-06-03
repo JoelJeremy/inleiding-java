@@ -8,6 +8,8 @@ public class NLvlag extends Applet {
 
     }
     public void paint(Graphics g) {
+        //Size
+        setSize(500,500);
         /*rood*/
         g.drawRect(20,20,10,400);
         g.setColor(Color.red);

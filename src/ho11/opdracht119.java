@@ -21,15 +21,19 @@ public class opdracht119 extends Applet {
         System.out.println();
 
         for (int kolom = 0; kolom < 8; kolom++) {
+
             x=100;
             y += h;
+
             for(int rij = 0; rij < 8; rij++) {
 
                 if ((kolom+rij)%2==0) {
                     g.setColor(Color.black);
                     g.drawRect(x, y, b, h);
                     g.fillRect(x, y, b, h);
+
                 } else {
+
                     g.setColor(Color.black);
                     g.drawRect(x, y, b, h);
                 }

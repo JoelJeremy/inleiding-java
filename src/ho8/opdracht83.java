@@ -70,14 +70,12 @@ public class opdracht83 extends Applet {
         public void actionPerformed(ActionEvent e) {
 
             System.out.println("klik");
+
             String message = vak.getText();
             c1 = Double.parseDouble(message);
 
             result = c1*btw;
             totaal = result+c1;
-
-
-
 
             repaint();
         }

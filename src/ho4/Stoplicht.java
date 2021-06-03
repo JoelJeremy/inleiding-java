@@ -8,6 +8,8 @@ public class Stoplicht extends Applet {
 
     }
     public void paint(Graphics g) {
+        setSize(500,600);
+
         g.setColor(Color.black);
         g.fillRect(150,100,150,400);
 

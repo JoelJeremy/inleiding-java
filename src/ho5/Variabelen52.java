@@ -14,6 +14,8 @@ public class Variabelen52 extends Applet {
         Hans = 200;
     }
     public void paint(Graphics g) {
+        //Size
+        setSize(800,500);
         /*body*/
         g.drawRect( 100,100,500,250);
 

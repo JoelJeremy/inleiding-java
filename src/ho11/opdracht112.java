@@ -15,7 +15,7 @@ public class opdracht112 extends Applet {
         int teller;
         int x = 50;
 
-        for (teller = 20; teller > 9; teller--) {
+        for (teller = 20; teller >= 10; teller--) {
             x += 20;
             g.drawString("" + teller, x, 100);
 

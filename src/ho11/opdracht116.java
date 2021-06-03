@@ -6,7 +6,6 @@ import java.awt.*;
 public class opdracht116 extends Applet {
 
     int z;
-    int teller;
 
     public void init() {
         setSize(800,500);

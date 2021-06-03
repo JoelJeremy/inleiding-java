@@ -8,6 +8,8 @@ public class Dobbelsteen extends Applet {
 
     }
     public void paint(Graphics g) {
+        //Size
+        setSize(1200,800);
         /*body*/
         g.setColor(Color.red);
         g.fillRoundRect(100,100,500,500,125,125);

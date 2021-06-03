@@ -21,8 +21,6 @@ public class Praktijkopdracht8 extends Applet {
 
     public void init() {
 
-        setSize(1200,800);
-
         plus = new Button("+");
         plus.addActionListener(new plus());
         add(plus);
@@ -52,6 +50,8 @@ public class Praktijkopdracht8 extends Applet {
     }
 
     public void paint(Graphics g) {
+
+        setSize(1200,800);
 
         plus.setLocation(420,50);
         plus.setSize(20,20);

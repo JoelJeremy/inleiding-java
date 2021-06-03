@@ -12,6 +12,8 @@ public class opdracht103 extends Applet {
     int d1;
     public void init() {
 
+        setSize(800, 400);
+
         setBackground(Color.orange);
 
         tv1 = new TextField("");
@@ -25,7 +27,6 @@ public class opdracht103 extends Applet {
 
     public void paint(Graphics g) {
 
-        setSize(800, 400);
 
         tv1.setLocation(100, 100);
         tv1.setSize(150, 40);

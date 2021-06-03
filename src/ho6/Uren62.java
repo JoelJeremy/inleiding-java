@@ -10,8 +10,8 @@ public class Uren62 extends Applet {
 
     public void init() {
         uur = 60*60;
-        dag = 60*60*24;
-        jaar = 60*60*24*365;
+        dag = uur*24;
+        jaar = dag*365;
 
     }
     public void paint(Graphics g) {

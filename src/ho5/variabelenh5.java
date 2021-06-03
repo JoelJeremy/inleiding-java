@@ -17,6 +17,8 @@ public class variabelenh5 extends Applet {
         Height = 100;
     }
     public void paint(Graphics g) {
+        //Size
+        setSize(800,500);
         /*lijn*/
         g.drawLine(20,20,200,20);
         g.drawString("Lijn", 100,40);
